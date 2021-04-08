@@ -7,7 +7,7 @@
   "author": "Yato",
   "license": "ISC",
   "scripts": {
-    "start": "index.js"
+    "start": "node_index.js"
   },
   "dependencies": {
     "discord.js": "^12.2.0"
