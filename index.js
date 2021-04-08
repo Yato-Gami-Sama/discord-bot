@@ -30,7 +30,7 @@ fs.readdir('./Events/', (error, f) => {
 });
 
 
-client.login('Njc3OTE3MjUzNDY2ODQ5MzQw.XkbNpA.dph_X3VhU3Qh_tbaP4EYFbwZf08');
+client.login(process.env.TOKEN);
 //Login du bot
 
 client.on("message", async(message) => {     
@@ -103,7 +103,7 @@ client.on("message", async(message) => {
                             })
                             client.on("message", async(message) => {     
                                 if(message.content === 'k!I'){
-                                    message.channel.send('I:round_pushpin: - Soyez respectueux, courtois, poli envers chacun.');
+                                    message.channel.send('**I:round_pushpin: - Soyez respectueux, courtois, poli envers chacun.**');
                                     message.delete()
                                 }
                                 })
